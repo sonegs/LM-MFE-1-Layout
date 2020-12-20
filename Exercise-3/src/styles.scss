@@ -1,0 +1,54 @@
+$myFont-family: sans-serif;
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    padding: 10px;
+    font-family: $myFont-family;
+}
+
+.mynavbar {
+    display: flex;
+    color: white;
+    background-color: teal;
+    .options {
+        padding: 10px;
+        font-family: $myFont-family;
+    }
+    @for $i from 1 through 4 {
+        .item-#{$i}:hover {
+            background-color: darkslategrey;
+        }
+    }
+}
+
+@media (min-width: 0px) {
+    .title {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    .mynavbar {
+        flex-direction: column;
+        text-align: center;
+        .options {
+            width: 100%;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .title {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .mynavbar {
+        flex-direction: row;
+        justify-content: space-between;
+        .options {
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.gridContainer {
+    .color-rows {
+        $color-base: red;
+        .grid-box {
+            border-radius: 5px;
+        }
+        .base {
+            background-color: $color-base;
+        }
+        .important {
+            background-color: darken($color-base, 30%);
+        }
+        .warning {
+            background-color: lighten($color-base, 30%);
+        }
+    }
+    .font-rows {
+        .principal-font {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .secondary-font {
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 600;
+        }
+    }
+    .orientation-shadow {
+        box-shadow: -5px 5px 5px 3px #888888;
+    }
+}

@@ -1,0 +1,24 @@
+.gridContainer {
+    .color-rows {
+        $color-base: blue;
+        .grid-box {
+            border-radius: 15px;
+        }
+        .base {
+            background-color: $color-base;
+        }
+        .important {
+            background-color: darken($color-base, 20%);
+        }
+        .warning {
+            background-color: complement(red);
+        }
+    }
+    .font-rows {
+        .principal-font {}
+        .secondary-font {}
+    }
+    .orientation-shadow {
+        box-shadow: 8px 8px 5px 5px #888888;
+    }
+}
