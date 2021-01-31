@@ -6,6 +6,7 @@ body {
 $flex: flex;
 $flex-end: flex-end;
 $principal-font-styles: 0.9rem sans-serif;
+$principal-color: green;
 .mycontainer {
     display: $flex;
     flex-direction: column;
@@ -50,17 +51,22 @@ $principal-font-styles: 0.9rem sans-serif;
                 justify-content: $flex-end;
                 font-size: 0.8rem;
                 span {
-                    color: green;
+                    color: $principal-color;
                 }
             }
             .more {
                 grid-row: 10/-1;
                 .button {
                     color: white;
-                    background-color: green;
+                    background-color: $principal-color;
                     text-align: center;
                     padding: 10px;
                     font: 1rem sans-serif;
+                    cursor: pointer;
+                    transition: 0.3s;
+                }
+                 :hover {
+                    background-color: seagreen;
                 }
             }
         }
