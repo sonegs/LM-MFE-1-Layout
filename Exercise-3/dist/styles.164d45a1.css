@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.mynavbar {
+  display: flex;
+  color: white;
+  background-color: teal;
+}
+.mynavbar .options {
+  padding: 10px;
+  font-family: sans-serif;
+}
+.mynavbar .item-1:hover {
+  background-color: darkslategrey;
+}
+.mynavbar .item-2:hover {
+  background-color: darkslategrey;
+}
+.mynavbar .item-3:hover {
+  background-color: darkslategrey;
+}
+.mynavbar .item-4:hover {
+  background-color: darkslategrey;
+}
+
+@media (min-width: 0px) {
+  .title {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
+  .mynavbar {
+    flex-direction: column;
+    text-align: center;
+  }
+  .mynavbar .options {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 600px) {
+  .title {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .mynavbar {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mynavbar .options {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */
