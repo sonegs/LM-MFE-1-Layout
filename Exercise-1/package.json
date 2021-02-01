@@ -1,0 +1,26 @@
+{
+  "name": "LM-MFE-1-Layout",
+  "version": "1.0.0",
+  "description": "Module 1 of Master Frontend by Lemoncode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonegs/LM-MFE-1-Layout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonegs/LM-MFE-1-Layout/issues"
+  },
+  "homepage": "https://github.com/sonegs/LM-MFE-1-Layout#readme",
+  "devDependencies": {
+    "sass": "^1.30.0"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
